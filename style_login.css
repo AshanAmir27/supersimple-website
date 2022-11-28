@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: url("/Images/hospital.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    background-color: white;
+    opacity: 80%;
+    border: 5px solid brown;
+    border-radius: 30px;
+}
+
+h2{
+    
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    font-size: 35px;
+    color: brown;
+}
+
+.content{
+    position: absolute;
+    left: 40px;
+    top: 30%;
+}
+
+input{
+    margin: 8px;
+    padding: 10px 20px;
+}
+
+button{
+    position: absolute;
+    left: 25%;
+    top: 120%;
+    padding: 10px 16px;
+    color: brown;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-color: brown;
+    font-size: 17px;
+    transition: .5s ease;
+}
+
+button:hover{
+    color: white;
+    background-color: brown;
+}
